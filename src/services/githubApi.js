@@ -1,10 +1,9 @@
-// const apiUrl = 'https://jobs.github.com/positions.json';
-const apiUrl = '/positions.json';
-const byIdApiUrl = (id) => `/positions/${id}.json`;
+import env from '../environment';
+const byIdApiUrl = (id) => `${env.apiUrl}/${id}.json`;
 
 const findJob = (query) => {
   const queryParams = new URLSearchParams(query).toString();
-  const url = `${apiUrl}?${queryParams}`;
+  const url = `${env.apiUrl}.json?${queryParams}`;
   return fetch(url, {
     method: 'GET',
     headers: { 'Content-Type': 'application/json' },
