@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { colors, fontSize, font } from '../basis/style-guide';
+import { colors, fontSize, font } from '../common/style-guide';
 
 const LogoContainer = styled.div`
   display: inline;

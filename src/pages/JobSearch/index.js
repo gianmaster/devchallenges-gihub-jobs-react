@@ -1,11 +1,11 @@
 import styled from 'styled-components';
-import Container from '../../components/basis/pageContainer';
+import Container from '../../components/common/pageContainer';
 import AppHeader from '../../components/AppHeader';
 import AppSearchBar from '../../components/AppSearchBar';
 import AppLocationFilter from '../../components/AppLocationFilter';
 import { useDispatch, useSelector } from 'react-redux';
 import { fetchJobsAction, updateQueryParams } from '../../store/actions/jobs';
-import CheckBox from '../../components/basis/checkbox';
+import CheckBox from '../../components/common/checkbox';
 import AppJobList from '../../components/AppJobList';
 import { useEffect } from 'react';
 

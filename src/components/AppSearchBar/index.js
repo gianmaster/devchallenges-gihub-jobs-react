@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { colors, font, fontSize } from '../basis/style-guide';
+import { colors, font, fontSize } from '../common/style-guide';
 const SearchBarContainer = styled.div`
   width: 100%;
   height: 140px;

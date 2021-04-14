@@ -1,4 +1,4 @@
-import { Button } from '../basis/buttons';
+import { Button } from '../common/buttons';
 
 const AppButton = ({ onClick, children }) => {
   return (

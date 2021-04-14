@@ -1,12 +1,12 @@
 import styled from 'styled-components';
-import Container from '../../components/basis/pageContainer';
+import Container from '../../components/common/pageContainer';
 import AppHeader from '../../components/AppHeader';
 import { useEffect } from 'react';
 import { Link, useParams } from 'react-router-dom';
-import { colors, font, fontSize } from '../../components/basis/style-guide';
+import { colors, font, fontSize } from '../../components/common/style-guide';
 import { findJobById } from '../../services/githubApi';
 import { useState } from 'react';
-import Loading from '../../components/basis/loading';
+import Loading from '../../components/common/loading';
 import { timeFrom } from '../../utils/helpers';
 
 const SectionsContainer = styled.div`

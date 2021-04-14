@@ -1,7 +1,7 @@
 import AppJobListItem from './AppJobListItem';
 import styled from 'styled-components';
-import Loading from '../basis/loading';
-import { colors } from '../basis/style-guide';
+import Loading from '../common/loading';
+import { colors } from '../common/style-guide';
 
 const ListContainer = styled.div`
   height: 100%;

@@ -3,8 +3,8 @@ import { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import styled from 'styled-components';
 import { updateQueryParams } from '../../store/actions/jobs';
-import Radio from '../basis/radio';
-import { colors, fontSize } from '../basis/style-guide';
+import Radio from '../common/radio';
+import { colors, fontSize } from '../common/style-guide';
 
 const Container = styled.div`
   display: flex;

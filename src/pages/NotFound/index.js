@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
-import Container from '../../components/basis/pageContainer';
+import Container from '../../components/common/pageContainer';
 
 const NotFoundDiv = styled.div`
   height: 90vh;
