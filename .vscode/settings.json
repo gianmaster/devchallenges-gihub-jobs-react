@@ -1,0 +1,6 @@
+{
+    "editor.formatOnSave": true,
+    "files.eol": "auto",
+    "prettier.endOfLine": "lf",
+    "editor.tabSize": 2
+}
