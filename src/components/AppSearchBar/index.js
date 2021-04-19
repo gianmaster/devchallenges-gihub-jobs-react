@@ -3,7 +3,7 @@ import { colors, font, fontSize } from '../common/style-guide';
 const SearchBarContainer = styled.div`
   width: 100%;
   height: 140px;
-  background: url(backgroundImg.png) no-repeat center center local;
+  background: url(/backgroundImg.png) no-repeat center center local;
   background-size: cover;
   border-radius: 8px;
   display: flex;

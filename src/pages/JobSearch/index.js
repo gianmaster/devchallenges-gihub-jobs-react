@@ -8,6 +8,7 @@ import { fetchJobsAction, updateQueryParams } from '../../store/actions/jobs';
 import CheckBox from '../../components/common/checkbox';
 import AppJobList from '../../components/AppJobList';
 import { useEffect } from 'react';
+import { useRef } from 'react';
 
 const SectionsContainer = styled.div`
   display: flex;
@@ -30,6 +31,7 @@ const FiltersDiv = styled.div`
 `;
 
 const JobSearchPage = (props) => {
+  const renderedTimes = useRef(0);
   const dispatch = useDispatch();
   const jobs = useSelector((s) => s.jobs.jobs);
   const query = useSelector((s) => s.jobs.query);
@@ -61,6 +63,10 @@ const JobSearchPage = (props) => {
   };
 
   useEffect(() => {
+    if (renderedTimes.current === 0) {
+      renderedTimes.current++;
+      return;
+    }
     dispatch(fetchJobsAction(query, jobs));
   }, [query]);
 
