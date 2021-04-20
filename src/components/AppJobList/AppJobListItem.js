@@ -20,7 +20,6 @@ const CardImg = styled.img`
   width: 90px;
   height: 90px;
   border-radius: 4px;
-  border: 1px solid #e4e5ea;
 `;
 
 const CardDescriptionBox = styled.div`

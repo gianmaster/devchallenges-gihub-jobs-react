@@ -1,3 +1,19 @@
+# Devchallenge github-jobs site with React
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+This is a PoC of `styled-components` and `redux-saga` since I hadn't used them until now. The main purpose of this project is to recreate the github-jobs site using its API and React.js.
+
+![image](https://user-images.githubusercontent.com/8931070/115427828-6b8e8c00-a1c7-11eb-8209-0a9a23ba8a77.png)
+
+![image](https://user-images.githubusercontent.com/8931070/115428046-9d075780-a1c7-11eb-9ab7-85b675005314.png)
+
+![image](https://user-images.githubusercontent.com/8931070/115427920-7fd28900-a1c7-11eb-82d6-d12516fd663a.png)
+
+![image](https://user-images.githubusercontent.com/8931070/115427980-8eb93b80-a1c7-11eb-8dda-ce1f1a28f78b.png)
+
+you can see the live demo [here](https://giancarlos-githubjobs.netlify.app).
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
